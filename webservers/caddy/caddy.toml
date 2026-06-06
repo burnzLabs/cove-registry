@@ -1,5 +1,5 @@
 name = "caddy"
-version = "2.10.0"
+version = "2.11.4"
 type = "webserver"
 
 homepage = "https://caddyserver.com"
@@ -14,5 +14,5 @@ env_add_path = [
 ]
 
 [architecture.x64]
-url = "https://github.com/caddyserver/caddy/releases/download/v2.10.0/caddy_2.10.0_windows_amd64.zip"
-hash = "sha256:aeb20676f18e1373586fc781c578e270e1429f71f6f0e0b72d85d55e0efca480"
+url = "https://github.com/caddyserver/caddy/releases/download/v2.11.4/caddy_2.11.4_windows_amd64.zip"
+hash = "sha256:1708333f79e274c7697285afe6d592ab39314e0b131e9ec6bea08ad27df62ebf"

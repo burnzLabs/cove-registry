@@ -1,0 +1,15 @@
+name = "pnpm"
+version = "11.5.2"
+type = "tool"
+
+homepage = "https://pnpm.io"
+license = "MIT"
+
+# Standalone build (Node bundled) — pnpm.exe + dist/ at the zip root.
+bin = [
+  "pnpm.exe",
+]
+
+[architecture.x64]
+url = "https://github.com/pnpm/pnpm/releases/download/v11.5.2/pnpm-win32-x64.zip"
+hash = ""

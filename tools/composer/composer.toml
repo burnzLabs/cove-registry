@@ -1,0 +1,16 @@
+name = "composer"
+version = "latest"
+type = "tool"
+
+homepage = "https://getcomposer.org"
+license = "MIT"
+
+# Shim name (composer) -> runs `php composer.phar`.
+bin = [
+  "composer.bat",
+]
+phar = "composer.phar"
+
+[architecture.x64]
+url = "https://getcomposer.org/composer.phar"
+hash = ""

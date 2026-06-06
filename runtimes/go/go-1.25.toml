@@ -1,0 +1,15 @@
+name = "go"
+version = "1.25.11"
+type = "runtime"
+
+homepage = "https://go.dev"
+license = "BSD-3-Clause"
+
+bin = [
+  "bin/go.exe",
+  "bin/gofmt.exe",
+]
+
+[architecture.x64]
+url = "https://go.dev/dl/go1.25.11.windows-amd64.zip"
+hash = "sha256:b7401f1b41517428e537493316256fb7cf03c66a130a0103ab07f3a2152e2112"

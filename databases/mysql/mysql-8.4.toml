@@ -1,0 +1,23 @@
+name = "mysql"
+version = "8.4.9"
+type = "database"
+
+homepage = "https://www.mysql.com"
+license = "GPL-2.0"
+
+# CLI clients get shims; the server (bin/mysqld.exe) is launched by Cove.
+# Zip wraps under mysql-<ver>-winx64/ (stripped). cdn.mysql.com avoids the
+# dev.mysql.com/get WAF that blocks scripted downloads.
+bin = [
+  "bin/mysql.exe",
+  "bin/mysqldump.exe",
+  "bin/mysqladmin.exe",
+]
+
+[service]
+name = "cove-mysql"
+port = 3306
+
+[architecture.x64]
+url = "https://cdn.mysql.com/Downloads/MySQL-8.4/mysql-8.4.9-winx64.zip"
+hash = ""

@@ -1,0 +1,19 @@
+name = "python"
+version = "3.12.13"
+type = "runtime"
+
+homepage = "https://www.python.org"
+license = "PSF-2.0"
+
+bin = [
+  "python.exe",
+  "Scripts/pip.exe",
+]
+
+env_add_path = [
+  ".",
+]
+
+[architecture.x64]
+url = "https://github.com/astral-sh/python-build-standalone/releases/download/20260602/cpython-3.12.13+20260602-x86_64-pc-windows-msvc-install_only.tar.gz"
+hash = ""

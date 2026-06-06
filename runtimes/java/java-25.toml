@@ -1,0 +1,16 @@
+name = "java"
+version = "25.0.3"
+type = "runtime"
+
+homepage = "https://adoptium.net"
+license = "GPL-2.0-with-classpath-exception"
+
+bin = [
+  "bin/java.exe",
+  "bin/javac.exe",
+  "bin/jar.exe",
+]
+
+[architecture.x64]
+url = "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jdk_x64_windows_hotspot_25.0.3_9.zip"
+hash = "sha256:709312cd0420296d9b9de917fe6e28a5b979e875ee5ab91783fb79bcd5857235"

@@ -1,0 +1,16 @@
+name = "uv"
+version = "0.11.19"
+type = "tool"
+
+homepage = "https://docs.astral.sh/uv/"
+license = "MIT"
+
+# uv can also install/manage Python itself (uv python install).
+bin = [
+  "uv.exe",
+  "uvx.exe",
+]
+
+[architecture.x64]
+url = "https://github.com/astral-sh/uv/releases/download/0.11.19/uv-x86_64-pc-windows-msvc.zip"
+hash = ""

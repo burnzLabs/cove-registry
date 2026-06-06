@@ -1,0 +1,20 @@
+name = "mysql"
+version = "9.7.0"
+type = "database"
+
+homepage = "https://www.mysql.com"
+license = "GPL-2.0"
+
+bin = [
+  "bin/mysql.exe",
+  "bin/mysqldump.exe",
+  "bin/mysqladmin.exe",
+]
+
+[service]
+name = "cove-mysql"
+port = 3306
+
+[architecture.x64]
+url = "https://cdn.mysql.com/Downloads/MySQL-9.7/mysql-9.7.0-winx64.zip"
+hash = ""

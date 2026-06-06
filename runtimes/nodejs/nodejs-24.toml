@@ -1,0 +1,20 @@
+name = "nodejs"
+version = "24.16.0"
+type = "runtime"
+
+homepage = "https://nodejs.org"
+license = "MIT"
+
+bin = [
+  "node.exe",
+  "npm.cmd",
+  "npx.cmd",
+]
+
+env_add_path = [
+  ".",
+]
+
+[architecture.x64]
+url = "https://nodejs.org/dist/v24.16.0/node-v24.16.0-win-x64.zip"
+hash = ""

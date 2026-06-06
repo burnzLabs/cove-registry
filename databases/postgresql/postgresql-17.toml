@@ -1,0 +1,22 @@
+name = "postgresql"
+version = "17.6"
+type = "database"
+
+homepage = "https://www.postgresql.org"
+license = "PostgreSQL"
+
+# CLI tools get shims (terminal use); the server is launched by Cove via its
+# absolute path (bin/postgres.exe). Zip wraps everything under pgsql/ (stripped).
+bin = [
+  "bin/psql.exe",
+  "bin/pg_dump.exe",
+  "bin/pg_restore.exe",
+]
+
+[service]
+name = "cove-postgresql"
+port = 5432
+
+[architecture.x64]
+url = "https://get.enterprisedb.com/postgresql/postgresql-17.6-1-windows-x64-binaries.zip"
+hash = ""

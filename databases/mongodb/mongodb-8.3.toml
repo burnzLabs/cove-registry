@@ -1,0 +1,18 @@
+name = "mongodb"
+version = "8.3.1"
+type = "database"
+
+homepage = "https://www.mongodb.com"
+license = "SSPL-1.0"
+
+bin = [
+  "bin/mongod.exe",
+]
+
+[service]
+name = "cove-mongodb"
+port = 27017
+
+[architecture.x64]
+url = "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-8.3.1.zip"
+hash = ""

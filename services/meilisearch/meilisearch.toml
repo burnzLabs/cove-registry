@@ -1,0 +1,19 @@
+name = "meilisearch"
+version = "1.45.2"
+type = "service"
+
+homepage = "https://www.meilisearch.com"
+license = "MIT"
+
+# Distributed as a bare .exe — placed as meilisearch.exe.
+bin = [
+  "meilisearch.exe",
+]
+
+[service]
+name = "cove-meilisearch"
+port = 7700
+
+[architecture.x64]
+url = "https://github.com/meilisearch/meilisearch/releases/download/v1.45.2/meilisearch-windows-amd64.exe"
+hash = ""

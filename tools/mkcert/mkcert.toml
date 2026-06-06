@@ -1,0 +1,15 @@
+name = "mkcert"
+version = "1.4.4"
+type = "tool"
+
+homepage = "https://github.com/FiloSottile/mkcert"
+license = "BSD-3-Clause"
+
+# Distributed as a bare .exe — downloaded and placed as mkcert.exe.
+bin = [
+  "mkcert.exe",
+]
+
+[architecture.x64]
+url = "https://github.com/FiloSottile/mkcert/releases/download/v1.4.4/mkcert-v1.4.4-windows-amd64.exe"
+hash = "sha256:d2660b50a9ed59eada480750561c96abc2ed4c9a38c6a24d93e30e0977631398"

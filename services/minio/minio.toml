@@ -1,0 +1,19 @@
+name = "minio"
+version = "latest"
+type = "service"
+
+homepage = "https://min.io"
+license = "AGPL-3.0"
+
+# Distributed as a bare .exe — placed as minio.exe.
+bin = [
+  "minio.exe",
+]
+
+[service]
+name = "cove-minio"
+port = 9000
+
+[architecture.x64]
+url = "https://dl.min.io/server/minio/release/windows-amd64/minio.exe"
+hash = ""

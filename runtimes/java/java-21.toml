@@ -1,0 +1,18 @@
+name = "java"
+version = "21.0.11"
+type = "runtime"
+
+homepage = "https://adoptium.net"
+license = "GPL-2.0-with-classpath-exception"
+
+# Eclipse Temurin (OpenJDK). Zip wraps under jdk-<ver>/ (stripped); java.exe
+# locates its JAVA_HOME from its own location.
+bin = [
+  "bin/java.exe",
+  "bin/javac.exe",
+  "bin/jar.exe",
+]
+
+[architecture.x64]
+url = "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jdk_x64_windows_hotspot_21.0.11_10.zip"
+hash = "sha256:d3625e7cadf23787ea540229544b6e2ab494b3b54da1801879e583e1dfee0a64"

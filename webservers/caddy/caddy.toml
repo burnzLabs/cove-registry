@@ -1,0 +1,18 @@
+name = "caddy"
+version = "2.10.0"
+type = "webserver"
+
+homepage = "https://caddyserver.com"
+license = "Apache-2.0"
+
+bin = [
+  "caddy.exe",
+]
+
+env_add_path = [
+  ".",
+]
+
+[architecture.x64]
+url = "https://github.com/caddyserver/caddy/releases/download/v2.10.0/caddy_2.10.0_windows_amd64.zip"
+hash = ""

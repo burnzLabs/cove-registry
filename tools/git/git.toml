@@ -1,0 +1,15 @@
+name = "git"
+version = "2.54.0"
+type = "tool"
+
+homepage = "https://git-scm.com"
+license = "GPL-2.0"
+
+# MinGit (portable) — cmd/git.exe locates its mingw64 siblings relatively.
+bin = [
+  "cmd/git.exe",
+]
+
+[architecture.x64]
+url = "https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/MinGit-2.54.0-64-bit.zip"
+hash = ""

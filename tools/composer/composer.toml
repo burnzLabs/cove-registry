@@ -1,5 +1,5 @@
 name = "composer"
-version = "latest"
+version = "2.10.1"
 type = "tool"
 
 homepage = "https://getcomposer.org"
@@ -12,5 +12,5 @@ bin = [
 phar = "composer.phar"
 
 [architecture.x64]
-url = "https://getcomposer.org/composer.phar"
-hash = ""
+url = "https://getcomposer.org/download/2.10.1/composer.phar"
+hash = "sha256:345b9c6a98da5c30dcbd4b0d99fc8710bf0ae98a3898eea18f7b2ad9dec93f06"

@@ -1,5 +1,5 @@
 name = "minio"
-version = "latest"
+version = "2025-09-07T16-13-09Z"
 type = "service"
 
 homepage = "https://min.io"
@@ -15,5 +15,5 @@ name = "cove-minio"
 port = 9000
 
 [architecture.x64]
-url = "https://dl.min.io/server/minio/release/windows-amd64/minio.exe"
-hash = ""
+url = "https://dl.min.io/server/minio/release/windows-amd64/archive/minio.RELEASE.2025-09-07T16-13-09Z"
+hash = "sha256:af709e6ba68488404e85acdd22a3030d0f5e56a108d4b27d744f18ceb50861b4"

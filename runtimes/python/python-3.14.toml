@@ -16,4 +16,4 @@ env_add_path = [
 
 [architecture.x64]
 url = "https://github.com/astral-sh/python-build-standalone/releases/download/20260602/cpython-3.14.5+20260602-x86_64-pc-windows-msvc-install_only.tar.gz"
-hash = ""
+hash = "sha256:dc33d76cf5363d79c21f8e9ab4538b0a809c508ed8b9b183ca4dfd62d8546387"

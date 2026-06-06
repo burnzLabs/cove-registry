@@ -20,4 +20,4 @@ persist = [
 
 [architecture.x64]
 url = "https://windows.php.net/downloads/releases/php-8.3.31-nts-Win32-vs16-x64.zip"
-hash = ""
+hash = "sha256:389c1327d325f6b6b3b892a5b2e1484ca5b5df775b6c4ddf5d1b5dc3b34ac761"

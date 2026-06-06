@@ -17,4 +17,4 @@ port = 3306
 
 [architecture.x64]
 url = "https://cdn.mysql.com/Downloads/MySQL-8.0/mysql-8.0.46-winx64.zip"
-hash = ""
+hash = "sha256:28e9eda019d88eff4478d811ea2110b83f02a3966be157fe91cc55def3ab0d4d"

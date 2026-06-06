@@ -12,4 +12,4 @@ bin = [
 
 [architecture.x64]
 url = "https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/MinGit-2.54.0-64-bit.zip"
-hash = ""
+hash = "sha256:04f937e1f0918b17b9be6f2294cb2bb66e96e1d9832d1c298e2de088a1d0e668"

@@ -19,4 +19,4 @@ port = 3306
 
 [architecture.x64]
 url = "https://archive.mariadb.org/mariadb-11.4.5/winx64-packages/mariadb-11.4.5-winx64.zip"
-hash = ""
+hash = "sha256:b7c11d38657f16b837e68199d73670510aadb78f42dfa5d5fdea31a7aab342e3"

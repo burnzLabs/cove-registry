@@ -15,4 +15,4 @@ env_add_path = [
 
 [architecture.x64]
 url = "https://github.com/caddyserver/caddy/releases/download/v2.10.0/caddy_2.10.0_windows_amd64.zip"
-hash = ""
+hash = "sha256:aeb20676f18e1373586fc781c578e270e1429f71f6f0e0b72d85d55e0efca480"

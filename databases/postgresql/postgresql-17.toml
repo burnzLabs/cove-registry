@@ -19,4 +19,4 @@ port = 5432
 
 [architecture.x64]
 url = "https://get.enterprisedb.com/postgresql/postgresql-17.6-1-windows-x64-binaries.zip"
-hash = ""
+hash = "sha256:d378882abd001a186735acd6f6ba716bca6ccd192e800412d4fd15ed25376b3e"

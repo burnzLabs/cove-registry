@@ -16,4 +16,4 @@ port = 7700
 
 [architecture.x64]
 url = "https://github.com/meilisearch/meilisearch/releases/download/v1.45.2/meilisearch-windows-amd64.exe"
-hash = ""
+hash = "sha256:bf85fe58d071f9e70fcef35ba4e450e80274f5895d791b4b0469b5c78209a173"

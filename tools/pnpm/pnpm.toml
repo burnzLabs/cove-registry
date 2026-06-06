@@ -12,4 +12,4 @@ bin = [
 
 [architecture.x64]
 url = "https://github.com/pnpm/pnpm/releases/download/v11.5.2/pnpm-win32-x64.zip"
-hash = ""
+hash = "sha256:b3ddff2c2bf87d3996fadf074bac58cd2259f718a17912a04ae930e3775b30e9"

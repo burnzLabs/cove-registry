@@ -1,5 +1,5 @@
 name = "mariadb"
-version = "11.4.5"
+version = "11.4.12"
 type = "database"
 
 homepage = "https://mariadb.org"
@@ -18,5 +18,5 @@ name = "cove-mariadb"
 port = 3306
 
 [architecture.x64]
-url = "https://archive.mariadb.org/mariadb-11.4.5/winx64-packages/mariadb-11.4.5-winx64.zip"
-hash = "sha256:b7c11d38657f16b837e68199d73670510aadb78f42dfa5d5fdea31a7aab342e3"
+url = "https://downloads.mariadb.org/rest-api/mariadb/11.4.12/mariadb-11.4.12-winx64.zip"
+hash = "sha256:4db7f8003d4a64ac8042b771c6d34ed04c7ffae8cf52775275b72f2bd4dd17a9"

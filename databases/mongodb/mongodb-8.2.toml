@@ -1,5 +1,5 @@
 name = "mongodb"
-version = "8.2.2"
+version = "8.2.9"
 type = "database"
 
 homepage = "https://www.mongodb.com"
@@ -14,5 +14,5 @@ name = "cove-mongodb"
 port = 27017
 
 [architecture.x64]
-url = "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-8.2.2.zip"
-hash = ""
+url = "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-8.2.9.zip"
+hash = "sha256:8da2dbadc3ab58ab87ec039a6d9f207c8cd7ebabdd6b7ae54dff48f2737f5c53"

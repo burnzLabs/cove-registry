@@ -1,5 +1,5 @@
 name = "postgresql"
-version = "17.6"
+version = "17.10"
 type = "database"
 
 homepage = "https://www.postgresql.org"
@@ -18,5 +18,5 @@ name = "cove-postgresql"
 port = 5432
 
 [architecture.x64]
-url = "https://get.enterprisedb.com/postgresql/postgresql-17.6-1-windows-x64-binaries.zip"
-hash = "sha256:d378882abd001a186735acd6f6ba716bca6ccd192e800412d4fd15ed25376b3e"
+url = "https://get.enterprisedb.com/postgresql/postgresql-17.10-1-windows-x64-binaries.zip"
+hash = "sha256:f9aafca58e7026a1ef2caeee711acf761671e57904d430adc85f468374f5a821"

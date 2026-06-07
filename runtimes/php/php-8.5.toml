@@ -14,10 +14,6 @@ env_add_path = [
   ".",
 ]
 
-persist = [
-  "php.ini",
-]
-
 [architecture.x64]
 url = "https://windows.php.net/downloads/releases/php-8.5.7-nts-Win32-vs17-x64.zip"
 hash = "sha256:2ff43fea9a243085493b48c7c47152c0678cff0b05c61a3b4f4b43ba22de212c"

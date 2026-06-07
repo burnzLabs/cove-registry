@@ -1,0 +1,27 @@
+# PHP 8.5 (nts/vs17/x64) PECL 확장 — gen-php-extensions.mjs 생성.
+
+[[extension]]
+name = "redis"
+url  = "https://downloads.php.net/~windows/pecl/releases/redis/6.3.0/php_redis-6.3.0-8.5-nts-vs17-x64.zip"
+hash = "sha256:481d6d1af45060ab41af6abe250faa270276fc47a493badc2e178024cdf6e255"
+
+[[extension]]
+name = "xdebug"
+zend = true
+url  = "https://downloads.php.net/~windows/pecl/releases/xdebug/3.5.1/php_xdebug-3.5.1-8.5-nts-vs17-x64.zip"
+hash = "sha256:1f5a5ec509971c35bf738ff21ccf1e5652a223f2101ea9e3c66e79b647e06e2a"
+
+[[extension]]
+name = "mongodb"
+url  = "https://downloads.php.net/~windows/pecl/releases/mongodb/2.3.3/php_mongodb-2.3.3-8.5-nts-vs17-x64.zip"
+hash = "sha256:5c94bca3d4ef1bea254486e5426a7d0f1b76844a2ba10a70e06963cacd88bbef"
+
+[[extension]]
+name = "apcu"
+url  = "https://downloads.php.net/~windows/pecl/releases/apcu/5.1.28/php_apcu-5.1.28-8.5-nts-vs17-x64.zip"
+hash = "sha256:8efdd54ba08c4af2075d207b2ba3aad52899214de261e4b1d5a41ba96689b622"
+
+[[extension]]
+name = "igbinary"
+url  = "https://downloads.php.net/~windows/pecl/releases/igbinary/3.2.16/php_igbinary-3.2.16-8.5-nts-vs17-x64.zip"
+hash = "sha256:093c9816d93c0c537e91d1e67718250f78da79790cdfa05eed14979ae9b010ec"

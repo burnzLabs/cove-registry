@@ -1,4 +1,4 @@
-# PHP 8.4 (nts/vs17/x64) PECL 확장 — gen-php-extensions.mjs 생성.
+# PHP 8.4 (nts/vs17/x64) PECL 확장
 
 [[extension]]
 name = "redis"
@@ -25,3 +25,8 @@ hash = "sha256:28f522ce9b65d8696dfcc999bf0ad9811d97d6ef9e26e35b117c3f8e9769e951"
 name = "igbinary"
 url  = "https://downloads.php.net/~windows/pecl/releases/igbinary/3.2.16/php_igbinary-3.2.16-8.4-nts-vs17-x64.zip"
 hash = "sha256:380c2d8032fb8c55e01326ebdb66b8855ff8630533811394c4fe2dd8252b81cf"
+
+[[extension]]
+name = "imagick"
+url  = "https://downloads.php.net/~windows/pecl/releases/imagick/3.8.1/php_imagick-3.8.1-8.4-nts-vs17-x64.zip"
+hash = "sha256:98bd9e5d7355aa8fbc348774613c0ee9844447a3ba5f2565a7aa08486aead541"
